@@ -1,0 +1,20 @@
+{
+  "version": "1.1",
+  "name": "Math Mania",
+  "description": "Math Mania is a useful Math learning app for kids with a cool and attractive Metro UI.",
+  "launch_path": "/wintest.html",
+  "fullscreen": "true",
+  "icons": {
+    "32": "/images/icon_32.png",
+    "60": "/images/icon_60.png",
+    "90": "/images/icon_90.png",
+    "120": "/images/icon_120.png",
+    "128": "/images/icon_128.png",
+    "256": "/images/icon_256.png"
+  },
+  "developer": {
+    "name": "Firefox Club NIT TRICHY CHAPTER",
+    "url": "https://www.facebook.com/groups/firefoxNitt/"
+  },
+  "default_locale": "en"
+}

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Tiles</title>
+    <link href="MetroJs.lt.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="black">
+<div class="tiles">
+    <div class="list-tile" style="width:290px; height:140px;">
+        <ul class="flip-list fourTiles" data-mode="flip-list">
+            <li><div style="background-color:green;"><h2 align="center" style="font-family:arial;">MATH</h2></div>
+			<div style="background-color:#CC0000;">
+			<h2 align="center" style="font-family:arial;">MATH</h2></div></li>
+            <li><div style="background-color:blue;"><h2 align="center" style="font-family:arial;">MANIA</h2></div>
+			<div style="background-color:#520052;">
+			<h2 align="center" style="font-family:arial;">MANIA</h2></div></li>
+            <li>
+			<div style="background-color:black;" align="center"><img src="pic8.jpg"  style=" width:145px; height:70px;"></img></div>
+			<div style="background-color:#99ff99;" align="center"><img src="pic3.jpg" style="width:80px; height:70px;"></div>
+			</li>
+            <li>
+			<div style="background-color:black;" align="center"><img src="pic6.jpg" style="width:145px; height:70px;"></div>
+			<div style="background-color:black;" align="center"><img src="pic4.jpg" style="width:145px; height:70px;"></div>
+			</li>
+        </ul>
+    </div>
+    <a href="kid1.html"><div class="live-tile" >
+        <div style="background-color:#990033;" ><h2 align="center" style="font-family:Calibri;">EASY</h2><h3 align="center" >Solve me ?</h3></div>
+		<div style="background-color:orange;"><br><br><h3 align="center">For Beginners Like You!!</h3></div>
+    </div></a>
+   <a href="kid4.html"> <div class="live-tile" data-mode="flip">
+        <div style="background-color:red;"><h2 align="center" style="font-family:Calibri;">MEDIUM</h2><h3 align="center">Try Me !</h3></div>
+        <div style="background-color:#669900;"><br><br><h3 align="center">&nbsp;Play & Have Fun !</h3></div>
+    </div>
+	<a href="kid2.html"> <div class="live-tile" data-mode="flip">
+        <div style="background-color:green;"><h2 align="center" style="font-family:Calibri;">DIFFICULT</h2><h3 align="center" >Can you do it ?</h3></div>
+        <div style="background-color:#FF0066;"><br><br><h3 align="center">Wanna Face It!</h3></div>
+    </div></a>
+	 <div class="live-tile" >
+        <div style="background-color:#808000;" ><h2 align="center" style="font-family:Calibri;">RULES<h3 align="center" >Not getting the answer ?</h3></h2></div>
+		<div style="background-color:#3399FF;"><h5 align="center"> SOLVE 'N' EARN POINTS <BR><BR>NEGATIVE POINTS FOR WRONG ANSWER<br>^ _ ^</h5></div>
+    </div>
+
+</div>
+    
+    <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="MetroJs.lt.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".live-tile,.flip-list").liveTile();
+        });
+    </script>
+</body>
+</html>

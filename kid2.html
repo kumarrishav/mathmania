@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<link href="building/fonts.css" rel="stylesheet" type="text/css">
+<link href="building/buttons.css" rel="stylesheet" type="text/css">
+
+
+<style>
+html{
+    background:url('tree.jpg') no-repeat center center;
+    min-height:100%;
+    min-width:100%;
+    background-size:cover;
+}
+#button
+{
+position:absolute;
+top:45%;
+left:10%;
+}
+#back
+{
+position:absolute;
+top:0%;
+left:0%;
+}
+#kid1
+{
+position:absolute;
+top:20%;
+left:33%;
+font-size:40px;
+font-family:FiraSans;
+color:brown;
+border-radius:20px;
+box-shadow: 10px 10px 5px #888888;
+}
+#point
+{
+position:absolute;
+top:85%;
+font-size:25px;
+font-family:FiraSans;
+color:blue;
+border-radius:20px;
+box-shadow: 10px 10px 5px #888888;
+}
+</style>
+<script src="js/kid2.js" type="text/javascript"></script>
+</head>
+<body onload="display()">
+<div id="kid1" ></div>
+<div id="point"></div>
+<a href="wintest.html"><img id="back" src="back2.png" width="40" height="40"></img></a>
+<div id="button">
+<a class="danger" style='border-radius:10px;width:120px; height:50px;' role="button" id="b1" onclick="ans(this.id)"></a>&nbsp;&nbsp;&nbsp;
+<a class="danger" style='border-radius:10px;width:120px; height:50px;' role="button" id="b2" onclick="ans(this.id)"></a><br><br>
+<a class="danger" style='border-radius:10px;width:120px; height:50px;' role="button" id="b3" onclick="ans(this.id)" ></a>&nbsp;&nbsp;&nbsp;
+<a class="danger" style='border-radius:10px;width:120px; height:50px;' role="button" id="b4" onclick="ans(this.id)" ></a>
+</div>
+
+</body>
+</html>
